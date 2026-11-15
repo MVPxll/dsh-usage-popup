@@ -1,0 +1,7 @@
+# dsh-usage-popup bundle patch.
+#
+# A single loader row: the bundle's `./client` half renders both popups and its
+# settings page, so no separate bridge entry is needed.
+- insert:
+    - id: dsh-usage-popup
+      name: dsh-usage-popup

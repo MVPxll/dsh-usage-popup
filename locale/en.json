@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Usage popup",
+    "description": "Peak and off-peak reminders at the start of every turn, then what the turn cost, its average cache hit rate and the running daily total when the reply lands, plus a live peak / off-peak badge at the left of the composer status row. DeepSeek flash and Pro pricing are built in, and any other rate can be entered by hand. Turn the popup, the badge, the glass blur, the chime, the daily total and the dwell time off or on in Settings → Usage popup.",
+    "detail": "docs/DETAIL.md"
+  }
+}

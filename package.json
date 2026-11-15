@@ -1,0 +1,61 @@
+{
+  "name": "dsh-usage-popup",
+  "version": "2.3.0",
+  "description": "Glassmorphism usage popup for DeepSeek Harness: peak and off-peak reminders each turn, per-turn cost, cache hit rate and a daily total, plus a live peak / off-peak badge in the composer status row.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "plugin",
+    "usage",
+    "cost",
+    "billing",
+    "pricing",
+    "cache",
+    "peak",
+    "off-peak",
+    "cny"
+  ],
+  "license": "MIT",
+  "author": "MVP小刘刘",
+  "homepage": "https://github.com/MVPxll/dsh-usage-popup#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVPxll/dsh-usage-popup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MVPxll/dsh-usage-popup/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "slots",
+        "locale"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Usage popup">
+  <defs>
+    <linearGradient id="dshUsageBg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b2f3d"/>
+      <stop offset="1" stop-color="#161922"/>
+    </linearGradient>
+    <linearGradient id="dshUsageLine" x1="26" y1="96" x2="102" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ddc97"/>
+      <stop offset="1" stop-color="#7aa2ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#dshUsageBg)"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="29.25" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="1.5"/>
+  <path d="M30 86 L52 62 L68 78 L98 44" fill="none" stroke="url(#dshUsageLine)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 44 H98 V62" fill="none" stroke="url(#dshUsageLine)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="30" cy="86" r="5" fill="#3ddc97"/>
+</svg>
