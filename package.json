@@ -1,7 +1,7 @@
 {
   "name": "dsh-usage-popup",
-  "version": "2.3.0",
-  "description": "Glassmorphism usage popup for DeepSeek Harness: peak and off-peak reminders each turn, per-turn cost, cache hit rate and a daily total, plus a live peak / off-peak badge in the composer status row.",
+  "version": "2.3.1",
+  "description": "消耗弹窗 · 每轮对话弹出高峰/低谷期提醒，回复结束时显示本轮花费、平均缓存命中率与今日累计，并在输入框状态栏给出实时高峰/低谷徽标。玻璃拟态外观，内置 DeepSeek flash/Pro 计价，也可自定义。Glassmorphism usage popup for DeepSeek Harness.",
   "keywords": [
     "dsh",
     "dsh-plugin",

@@ -1,0 +1,7 @@
+# Scratch and local-only files: never publish these.
+_promo/
+preview-*.html
+上架教程.md
+node_modules/
+_*.mjs
+_*.txt
